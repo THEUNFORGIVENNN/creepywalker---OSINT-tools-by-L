@@ -21,8 +21,6 @@ Setup and Running CreepyWalker from Scratch
 a. Install Python
 Ensure that Python is installed on your system. You can check by running the following command:
 
-bash
-Salin
-Edit
-python --version
+  "python --version"
+  
 If not installed, you can download and install Python from python.org.
