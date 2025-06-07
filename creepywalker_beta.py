@@ -12,7 +12,7 @@ import pyfiglet  # Import pyfiglet for banner
 def print_banner():
     banner = pyfiglet.figlet_format("CREEPYWALKER", font="slant")
     print(Fore.MAGENTA + banner + Style.RESET_ALL)
-    print(Fore.YELLOW + "OSINT TOOLS BY L" + Style.RESET_ALL)  # Add additional text below the banner
+    print(Fore.YELLOW + "OSINT TOOLS BY L (use --help)" + Style.RESET_ALL)  # Add additional text below the banner
 
 # 1. GeoIP Lookup
 def get_geo_from_ip(ip):
