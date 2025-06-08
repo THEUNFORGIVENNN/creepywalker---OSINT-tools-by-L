@@ -138,7 +138,7 @@ def main():
     
     # Arguments
     parser.add_argument('--geo', type=str, help='IP address to perform GeoIP lookup')
-    parser.add_argument('--phone', type=str, help='Phone number to look up')
+    parser.add_argument('--phone', type=str, help='Phone number to look up(usage +country code)')
     parser.add_argument('--image', type=str, help='Image file path to analyze EXIF data')
     parser.add_argument('--lat', type=float, help='Latitude for reverse geocoding')
     parser.add_argument('--lon', type=float, help='Longitude for reverse geocoding')
