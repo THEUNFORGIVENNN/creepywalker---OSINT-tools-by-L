@@ -140,8 +140,6 @@ def main():
     parser.add_argument('--geo', type=str, help='IP address to perform GeoIP lookup')
     parser.add_argument('--phone', type=str, help='Phone number to look up(usage +country code)')
     parser.add_argument('--image', type=str, help='Image file path to analyze EXIF data')
-    parser.add_argument('--lat', type=float, help='Latitude for reverse geocoding')
-    parser.add_argument('--lon', type=float, help='Longitude for reverse geocoding')
     parser.add_argument('--dork', type=str, help='Google Dork query')
     parser.add_argument('--domain', type=str, help='Domain to check subdomains')
     parser.add_argument('--apikey', type=str, help='API Key just for phone lookup')
