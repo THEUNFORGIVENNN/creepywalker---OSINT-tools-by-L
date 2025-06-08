@@ -17,21 +17,15 @@ Subdomain & Vulnerability Scanner: Check subdomains and their vulnerabilities.
 This tool leverages external APIs and browser automation via Selenium, and outputs results in a colorful, easy-to-read format using colorama.
 
 Setup and Running CreepyWalker from Scratch
-    1. Environment Setup
-a. Install Python
-Ensure that Python is installed on your system. You can check by running the following command:
 
-  "python --version"
-  
-If not installed, you can download and install Python from python.org.
-
-2.) Download the Project
+1.) Download the Project
 a. Clone the Repository from GitHub
 If you have Git installed, you can clone the CreepyWalker repository by running the following command:
 
     git clone https://github.com/username/creepywalker.git
 
-3.) Install Dependencies
+2.) Install Dependencies
+
 a. Create a Virtual Environment (Optional but Recommended)
 It is recommended to use a virtual environment to isolate dependencies.
 
@@ -53,7 +47,7 @@ Once the virtual environment is activated, install the required dependencies by 
 
 The requirements.txt file includes libraries such as requests, colorama, Pillow, and selenium.
 
-4. Running CreepyWalker
+3. Running CreepyWalker
 
 a. Run GeoIP Lookup
 To perform a GeoIP lookup, use the following command:
@@ -92,10 +86,10 @@ To check subdomains and their vulnerabilities for a given domain, use the follow
     python creepywalker_beta.py --domain <DOMAIN>
 Replace <DOMAIN> with the domain you want to check.
 
-5. Using the Output
+4. Using the Output
 Whenever you run one of the above commands, the results will be displayed in your terminal with color-coded output for readability. For example, for the GeoIP lookup results, you'll see information such as country, city, and ISP displayed with different colors for clarity.
 
-6. Getting an API Key for Phone Lookup
+5. Getting an API Key for Phone Lookup
 For the Phone Lookup feature, you'll need an API key from apilayer:
 
 Visit the apilayer Phone Lookup API.
@@ -104,7 +98,7 @@ Sign up and obtain your API Key.
 
 Use your API Key with the --apikey parameter when running the script.
 
-7. Troubleshooting
+6. Troubleshooting
 If you run into any issues, here are some things to try:
 
 Ensure Python and dependencies are correctly installed.
